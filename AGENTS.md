@@ -1,6 +1,11 @@
-# Linear・GitHub連携ルール
+# Repository maintenance instructions
 
-> この節は、作業でLinearを利用する場合にのみ適用する。Linearを使わない作業では、Issueの作成・紐付けを要求しない。対象Issueが見つからない、またはLinearに接続できない場合はその状態を明示し、Issue IDを作成・推測して成功扱いしない。
+このリポジトリは、複数のプロジェクトで使うコーディングエージェント向け共通指示を配布します。
+
+- 配布用の入口は [`INSTRUCTIONS.md`](INSTRUCTIONS.md) です。作業別の文書を変更するときは、入口と該当する文書を確認します。
+- `INSTRUCTIONS.md` と `instructions/` の相対パスを保ち、リンク先が存在することを確認します。ビルドやファイル結合は行いません。
+- [`README.md`](README.md) は公開リポジトリの構成と導入方法を説明し、[`INSTALL.md`](INSTALL.md) は初回導入だけを扱います。両者の説明を一致させます。
+- `AGENTS.md` はこのリポジトリの保守用です。対象プロジェクトへ配布する指示には含めません。
 
 ## 基本方針
 
